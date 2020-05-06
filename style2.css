@@ -1,0 +1,186 @@
+/* || General setup */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color:#ffffff;
+
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* || typography */
+
+h1, h2, h3 {
+  font-family: 'Sonsie One', cursive;
+  color: #2a2a2a;
+}
+
+p, input, li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  color: white;
+  text-shadow: 5px 5px 15px #000000;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+nav, article, aside, footer {
+  background-color: white;
+  padding: 1%;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  margin-bottom: 10px;
+  border-style: dashed;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.actualLink {
+
+  text-decoration: underline;
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+input[type="search"] {
+  flex: 3;
+}
+
+input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #333;
+  border: 0;
+  color: white;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+  #tablacategorias {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+  }
+
+  #tablacategorias td, #tablacategorias th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+
+  #tablacategorias tr:nth-child(even){background-color: ff80ff;}
+
+  #tablacategorias tr:hover {background-color: #333;}
+
+  #tablacategorias th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+  }
+
+
+/*class*/
+.subrayado {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 800 ;
+}
+
+#encabezado {
+  transform: rotatez(-9deg);
+ 
+}
+
+.rotar-titulo{
+  transform: rotate(-7deg);
+}
